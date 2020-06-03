@@ -20,7 +20,9 @@
     "url": "https://github.com/AAVasiltsov/frontend-project-lvl1/issues"
   },
   "homepage": "https://github.com/AAVasiltsov/frontend-project-lvl1#readme",
-  "dependencies": {},
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
   "devDependencies": {
     "make": "^0.8.1"
   }
