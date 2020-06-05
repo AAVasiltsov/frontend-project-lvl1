@@ -5,10 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "install": "npx make install",
+    "brain-games": "npx make brain-games",
+    "publish": "npx make publish",
+    "lint": "npx make lint"
   },
   "bin": {
-    "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js"
   },
   "repository": {
     "type": "git",
