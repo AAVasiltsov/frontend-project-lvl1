@@ -5,10 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "install": "npx make install",
-    "brain-games": "npx make brain-games",
-    "publish": "npx make publish",
-    "lint": "npx make lint"
+    "install": "make install",
+    "brain-games": "make brain-games",
+    "publish": "make publish",
+    "lint": "make lint"
   },
   "bin": {
     "brain-games": "bin/brain-games.js",
@@ -28,7 +28,7 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "eslint": "^7.1.0",
+    "eslint": "^7.2.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-plugin-import": "^2.20.2",
     "make": "^0.8.1"
